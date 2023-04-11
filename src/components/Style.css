@@ -1,0 +1,50 @@
+.global_header {
+    display: block;
+    background-color: #333;
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    width: 1000px;
+    overflow: hidden;
+    text-align: center;
+}
+
+li {
+    float: left;
+}
+
+.right-item {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 50px 32px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.main-body {
+    display: block;
+    width: 1000px;
+    margin: auto;
+}
+
+.display-block {
+    background-color: #2b3035;
+    float: left;
+    display: block;
+    height: 300px;
+    width: 200px;
+    padding: 8px;
+    margin: 12px;
+}
